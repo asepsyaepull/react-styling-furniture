@@ -17,7 +17,7 @@ import CTA from './components/CTA'
 function App() {
 
   const logo = iconLogo
-  const textLogo = "Furniro"
+  const textLogo = "Furnime"
 
   const navList = [
     {
@@ -50,6 +50,13 @@ function App() {
       link: "#"
     }
   ];
+
+  const hero = {
+    id: 1,
+    title: "Make your interior more minimalistic & modern",
+    subtitle: "Turn your room with furnime into a lot more minimalist and modern with ease and speed",
+    background: 'https://s3-alpha-sig.figma.com/img/d2be/e090/11d0ef5c5aab59b69714774a45812d7d?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cz9wq3Egeter~ldaKBaep75se9eLaC86UuGvjzpX0Hgr2Zp7a6UNXHJUcGknGYMmL4B~FL5oYzc3tPDLUEcHi9J~oa1kIoLPByoJeD~50R9o~WwccU3CDGnca8C4qB~NdCa7-zZacDBQGJHQzACXkXjgFWzR6eMJnfG66YcB1GdGbBPdHu5ORsV4s6bAl98bzfn7CQ4bQQMjMIaweaxxpox81u~3GKdVanYqhOMh06D2alf8efjTag5s1z7hyl6jrWFcV3GjQMkjEO9rBIn8Hv1n-axN1D1L9OMYW3ZMAe5ELRAQNPcTe8ijnMxpPw3AwdtDmT1lvFPFcJnb-5OmRQ__'
+  }
 
   const whyus = [
     {
