@@ -12,7 +12,7 @@ const Experience = props => {
             className='w-[550px] h-96 rounded-l-2xl object-cover'
           />
         </div>
-        <div className='flex flex-col w-fill items-start p-8 gap-5'>
+        <div className='flex flex-col w-2/3 items-start p-8 gap-5'>
           <span className="text-sm text-orange-500">
             {experience.title}
           </span>

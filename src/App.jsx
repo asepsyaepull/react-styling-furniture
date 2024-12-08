@@ -11,7 +11,6 @@ import Material from './components/Material'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import { FaFacebookF, FaInstagram, FaPinterestP, FaTwitter } from 'react-icons/fa6'
-import { sub } from 'motion/react-client'
 import CTA from './components/CTA'
 
 function App() {
@@ -76,6 +75,13 @@ function App() {
     }
   ];
 
+  const productDescription = {
+    id: 1,
+    title: "Our Trending Product",
+    subtitle: "High Quality Furniture",
+    description: "Discover furniture that combines quality and design. We provide a variety of furniture products that are very luxurious and elegant. You can choose the furniture that suits your room.",
+  }
+
   const productList = [
     {
       id: 1,
@@ -85,7 +91,7 @@ function App() {
       price: 389,
       icon: <HiStar />,
       rate: 4.8,
-      colors: ["#000", "#faf", "#f19"],
+      colors: ["bg-gray-800", "bg-sky-600", "bg-blue-400"],
     },
     {
       id: 2,
@@ -292,9 +298,9 @@ function App() {
   return (
     <div>
       <Navbar logo={logo} textLogo={textLogo} navList={navList} icons={icons} />
-      <Hero icons={icons} />
+      <Hero hero={hero} icons={icons} />
       <WhyUs whyus={whyus} />
-      <Product productList={productList} />
+      <Product productDescription={productDescription} productList={productList} />
       <Experience experience={experience} />
       <Material materials={materials} />
       <Testimonials testimonials={testimonials} />

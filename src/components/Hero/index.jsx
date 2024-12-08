@@ -1,17 +1,17 @@
-const Hero = ({ icons }) => {
+const Hero = ({ icons, hero }) => {
     return (
         <section id="hero">
             <img
-                src="https://s3-alpha-sig.figma.com/img/d2be/e090/11d0ef5c5aab59b69714774a45812d7d?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cz9wq3Egeter~ldaKBaep75se9eLaC86UuGvjzpX0Hgr2Zp7a6UNXHJUcGknGYMmL4B~FL5oYzc3tPDLUEcHi9J~oa1kIoLPByoJeD~50R9o~WwccU3CDGnca8C4qB~NdCa7-zZacDBQGJHQzACXkXjgFWzR6eMJnfG66YcB1GdGbBPdHu5ORsV4s6bAl98bzfn7CQ4bQQMjMIaweaxxpox81u~3GKdVanYqhOMh06D2alf8efjTag5s1z7hyl6jrWFcV3GjQMkjEO9rBIn8Hv1n-axN1D1L9OMYW3ZMAe5ELRAQNPcTe8ijnMxpPw3AwdtDmT1lvFPFcJnb-5OmRQ__"
+                src={hero.background}
                 alt=""
                 className='top-0 left-0 w-full h-screen object-cover'
             />
             <div className='absolute top-40 left-1/2 -translate-x-1/2 max-w-screen-xl flex flex-col items-center justify-center gap-4'>
                 <h1 className='flex text-white text-6xl text-center font-semibold capitalize leading-[80px]'>
-                    Make your interior more <br /> minimalistic & modern
+                    {hero.title}
                 </h1>
                 <p className='flex font-normal opacity-80 text-white items-center justify-center text-center'>
-                    Turn your room with panto into a lot more minimalist <br /> and modern with ease and speed
+                    {hero.subtitle}
                 </p>
                 <div className='flex justify-center items-center p-4'>
                     <input

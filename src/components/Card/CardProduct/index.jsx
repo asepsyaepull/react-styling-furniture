@@ -17,15 +17,19 @@ const CardProduct = props => {
                     <p className="text-sm text-gray-400">{product.type}</p>
                     <div className="flex items-center justify-between mb-4">
                         <h2 className="text-lg font-semibold">{product.name}</h2>
-                        <button className="bg-gray-200 rounded-full border border-gray-300 p-2"><BiPlus /></button>
+                        <button className="text-black bg-gray-200 rounded-full border border-gray-300 p-2 hover:bg-orange-400 hover:text-white hover:border-white"><BiPlus /></button>
                     </div>
                 </div>
                 <div className="flex items-center justify-between px-4">
                     <p className="text-md font-semibold text-gray-700">${product.price}</p>
                     <div className="flex items-center justify-center bg-slate-100 bg-opacity-35 py-1 px-2 border rounded-full w-fit text-sm text-gray-400 gap-2">
-                        <div className="rounded-full p-2 bg-gray-700 h-fit" />
-                        <div className="rounded-full p-2 bg-emerald-800 h-fit " />
-                        <div className="rounded-full p-2 bg-emerald-800 h-fit" />
+                        {/* looping warna product dengan map */}
+                        {product.colors.map((color, index) => (
+                            <div
+                                key={index}
+                                className={`w-4 h-4 rounded-full ${color}`}>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
