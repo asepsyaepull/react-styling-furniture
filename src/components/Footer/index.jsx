@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = ({ logo, textLogo, footerDesc, footerService, footerList, footerSocial }) => {
     return (
         <footer className='flex flex-col w-full bg-stone-200 py-6'>
-            <div className='flex flex-col md:flex-row container mx-auto max-w-screen-xl items-center'>
+            <div className='flex container mx-auto max-w-screen-xl items-center'>
                 {/* Description */}
-                <div className='flex flex-col w-full md:w-1/2 gap-4'>
+                <div className='flex flex-col w-1/2 gap-4'>
                     <div className='flex gap-4'>
                         <img
                             src={logo}
@@ -21,7 +21,7 @@ const Footer = ({ logo, textLogo, footerDesc, footerService, footerList, footerS
                     </p>
                 </div>
                 {/* List Menu */}
-                <div className="flex flex-col md:flex-row w-full justify-end p-10 gap-8 md:gap-24">
+                <div className="flex w-full justify-end p-10 gap-24">
                     <div className='flex flex-col gap-4'>
                         <h2 className='text-md text-orange-400 font-semibold'>
                             Services

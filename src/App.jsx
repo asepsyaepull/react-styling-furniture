@@ -54,7 +54,7 @@ function App() {
     id: 1,
     title: "Make your interior more minimalistic & modern",
     subtitle: "Turn your room with furnime into a lot more minimalist and modern with ease and speed",
-    background: 'https://s3-alpha-sig.figma.com/img/d2be/e090/11d0ef5c5aab59b69714774a45812d7d?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=r45Tz1v~k6~C94CSKmNfTD5N09c324zID~uOnkRsK2ngqPzI9BBsOSGdAnNKgiEZsxg3VlqU6mYq19~hEkReuJdtfYtGauTuIQ0Kn82iVun3DlSTtm6fUQiER6aZ74ibNOQQ8p6LddfCjpd5-lDnbPUExQdYXl7WXwDcwyf4YXBSJ71q5yapAILnJvp0uAeY0-Sm0ijC~jKqM-xQeV1CrxgK7yS~qpWuljnoS8d9qLGIzHJKt9zox9f8GE5wGiKej7uCfx27tfPcipXK8iVJptWd5fz-X2iOTqnBY8ZjWFju18Q9ZBw6XxjEhGXeHixQMdACUUlP1Z~CsToZ5UmH3Q__'
+    background: 'https://s3-alpha-sig.figma.com/img/d2be/e090/11d0ef5c5aab59b69714774a45812d7d?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cz9wq3Egeter~ldaKBaep75se9eLaC86UuGvjzpX0Hgr2Zp7a6UNXHJUcGknGYMmL4B~FL5oYzc3tPDLUEcHi9J~oa1kIoLPByoJeD~50R9o~WwccU3CDGnca8C4qB~NdCa7-zZacDBQGJHQzACXkXjgFWzR6eMJnfG66YcB1GdGbBPdHu5ORsV4s6bAl98bzfn7CQ4bQQMjMIaweaxxpox81u~3GKdVanYqhOMh06D2alf8efjTag5s1z7hyl6jrWFcV3GjQMkjEO9rBIn8Hv1n-axN1D1L9OMYW3ZMAe5ELRAQNPcTe8ijnMxpPw3AwdtDmT1lvFPFcJnb-5OmRQ__'
   }
 
   const whyus = [
@@ -87,7 +87,7 @@ function App() {
       id: 1,
       name: "Sakarias Armchair",
       type: "Chair",
-      image: "https://s3-alpha-sig.figma.com/img/72b4/5d5c/11068dab5ec5316fcbdb57fa2468c3bd?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ITNAKq18fgLP08gS7h8UlNCx66-Fw3kQ1QsLnetadrtcsWSpNILp0XxfBg284uyWP~qUZxqnbRZuHSVzpbIgYlzQQ7XPC6EJKmi9QHKc0WMb-0vD96NrsrS7LDEmt46EGXCG9B7z3ZqwveJKUjHegUXtW7G6fmSTaHosmaMgwypYLZT-nmK3-WJ~IS~RNt7iJgeYUA8SXeBTNpKvjlETItSU09VZU2Lvo7psiY65-0Hg5Bz7FDIAbL2fy5VBarxvXScWHDiDgwvEkq2JWk1VB1s5yfCDWHP01JfsjAdfgA1n09KAU3xWofMQoDNIadFFJ3csRYPtYimF3sSyvsTuVw__",
+      image: "https://s3-alpha-sig.figma.com/img/72b4/5d5c/11068dab5ec5316fcbdb57fa2468c3bd?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gAxzhvgAtJW2KKy2sVd7IVkU0Lj4mLkxmQtz2gP-SIlYp~he~vurqqZMQmZdFObkk3QwKInUBZ8Z3XQYPIdcORA~fRQ6z~~LRfBBYj~QDtSSbo-9YUaV~gT6tjsqinNTMc~fKvHVezXVtjLjZcrcU8YylEPIHqnIqEvdZq2LLUughgi1UdLpl4KkFNl8yDku8daJSvP4ADEiylzKwfJy8FzVSVitl0yWa0ZIdQFDfcbEA-yFP8S1sqe1tgc6waTuhB8dWzgDQvYOO5vQuNbutjNDxfDWJvd~VnTIVpsDBUVPR3jqOUXOYX23FS9BANomQDO1WWpMT1S-Oake6rgBPQ__",
       price: 389,
       icon: <HiStar />,
       rate: 4.8,
@@ -97,7 +97,7 @@ function App() {
       id: 2,
       name: "Baltsar Chair",
       type: "Chair",
-      image: "https://s3-alpha-sig.figma.com/img/d5a3/f321/bac85cc737d261d2e07c33af6757be12?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=U5SAXs9OkTpLlJXB2IcPFjENt82spKPLOIUYuzO2C9p7NNWJRVog4I5u8kWsiZeTs6soEvvTpRtLZXYUNm~8oTG3o16Rp0yhkSxOXvBqjhwjGRELrYXjBT8l2l0XQ0YxTdmuLvAH-0x5DBpR3z4Rw5sI4qu2BbTf9bix~SIdg-3ohlHYrhFNOXT4gb8iFNGRh-7F0kBwHDZiSpZACNtaV3CWVbetW6jBrfdCATVNKnpcwmzhf1k5PQD1ZG4wwbgvay6XVr930P2AnlQkSwodJW2wk6plkuoMZnn4lkKTG13x58fpK5Pp298VG1KffZj6sTMKYotjHG5v--r2DtEtrQ__",
+      image: "https://s3-alpha-sig.figma.com/img/d5a3/f321/bac85cc737d261d2e07c33af6757be12?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DQj3XjvxjMNd1BcEeHdfVknJ4AVV5oefViCDfN28aAVHVVP-d8iBHBiLqZRrMl8hZMEHY-CMLaNsLnqVLwPkjR3MJXh9GN5MIuxgjzN63xMwDPWJ1W3guhQ6~83L6bqJmVrCLkZmSARW3JV8jsQEVgn-YgE6BU1fjaByyPx6YOC6vzmVCZYe25MxTkvA1msW1PCenrc1adu-kBmxZJNhGnzLEC4Tn0riMlY93RUQRbiB7kPBisZP04CHRh90twzMcXvIGdRvnt4Rk6cgfbGJbVkUvyCjG-HvE6mUBcp2g6Wbm8~-4ElvsdfPrPuN5lsL-URANJp8KJof9j-tBogywQ__",
       price: 299,
       icon: <HiStar />,
       rate: 4.8,
@@ -107,7 +107,7 @@ function App() {
       id: 3,
       name: "Santuy Chair ",
       type: "Sofa",
-      image: "https://s3-alpha-sig.figma.com/img/b0bc/080d/9a879bf40d497ccc69dbc0f0310f6bc2?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=CIvtooTH5BTOeGYRwNUwtohf5IexCXRYCJvaepGq5SF1OPH-8ntmg1Lta4aO6I-PZIhGR3tyo-Iwcu~MXbQM~eCPZe3RclrYIaSNYvBEu9fNFcZBtrzuwpUrUWypiQw6X9v2MUJCzOz6LKhiMrg3XZoCfx6KUGcwTyYDEtmoBwWoARzVSACCt4-qlSQjCqyhGEqW4D2TIeRK8c8u7lj0lF7eK~IAMDvrXYgH~J0XE7ERqypcMv46RhfFz7TT9-rHXxTcUSSoxoz0BGArIqGVJkvL8A2FC0zz7mwDQo9ue859NKFOdhDcw1cUrCBxPVRHRu-1gfO7ONuj~5WE9PO-IA__",
+      image: "https://s3-alpha-sig.figma.com/img/6012/e707/4ba9207a7e0e984fcbf663c8bb31a920?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Cqm5-KN5pACcIL9nU7kVF0ZKrB71hWk5XgR9cTeLdFDnX~5NR2NUzC4TG8qw19~GDteT7eoZAgiVp92QKRuMGsZJc6a4qtt7J4nkzxa6aJJCYv1Ysp9-2-31hfoWUP-mWuS8X8OZstO5LXj2qprhn1vFwT27JWlmfEgrCYoVV5qJlEKGwhDDFS6arqVpwvLu4Y6uTxNWUoh5wZzK5Zyht8HBk9HZHDn234747vT0nMFb4INOUQYKwf1PqlotLZWDQ~LYvVZ85vdjLasHsoeCAyHaV0SpnyqtgyVELbV1qE0ssXHydR6L6FSiU2sEimVawFFmS9eK6lZdXA76m00tRg__",
       price: 519,
       icon: <HiStar />,
       rate: 4.8,
@@ -117,7 +117,7 @@ function App() {
       id: 4,
       name: "Relax Chair ",
       type: "Sofa",
-      image: "https://s3-alpha-sig.figma.com/img/6012/e707/4ba9207a7e0e984fcbf663c8bb31a920?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jALh~YhJCueweS62rDfNSAwbDG2iOBfeVtF58E0AUIM0f0UGxEjeodgPxFuKBlIqGacQuam5f4VK~1Q~l3pQi2piBe4HKuYQBI6VzamYxuPKmRISbRykSJpZqTQ8tufEh8qFbnxCwhclmGxK0x5ZcQ8cBgu4RKdBsHHWsD0k0HTUm52GAJqF~a2e-6E~fpIM5h19e9b6MRE0L2TrFqT10iYWBx7qTWZfvBzWNFnOfp5qIrBGgUoh4zbDtFk8iQM5rYAV7HPDfBL6MfScyfpfdqn~V5axbhw1~T2ZTOVjLEwcRUWelodkifF6f2LtgtwdPxQTVOUPjIWNYH1Taw2Z4Q__",
+      image: "https://s3-alpha-sig.figma.com/img/b0bc/080d/9a879bf40d497ccc69dbc0f0310f6bc2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YL0dAvkv8Ic5OukvZtF2qYeGLATfWOn3v8TO-wsxzQdMhNlpW5IpmkEKwwDV55M2o-blnBD~YHmP6Hq0XlacKnG8Lbu~E-ZJA4O61nEF8hZ40QVkz3~fMh9dZlmuzSCb2GBdwXTFijSUYCBx236XGjdyX8RO0Rq5jZPUbot~KVScqbqNvq82fltBu61x74sf4ab-KgTXNQwkhuQbwfhMycJef0Ifp~rn~9somJ53QMeRItMVLGfpBdu0BUMce88JKM0Kx9AMirF8d3fNb8qJxydbMHtSLKuwpP5poRXuFMwWRJyLSSZLWi8ztcTcjMMrCs8dKa8IL8UTacbokl4tAg__",
       price: 921,
       icon: <HiStar />,
       rate: 4.8,
@@ -131,7 +131,7 @@ function App() {
     title: "experiences",
     subtitle: "We Provide You The Best Experience",
     description: "You don’t have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials",
-    image: "https://s3-alpha-sig.figma.com/img/4a4b/57d9/1dde88ae6788c27acd5fc55158eb2f11?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SR5pnFNBjFXhvPSVMRfwB~RY3D6BahiofIjwb6oIdFj77~xUmI7mKlcZMCnzaeFwKMcJBZCCjWu4LzIcofIXNKY-e3lah7jWULmRLHCjBbhO7WwNq1xJN9mLLOf6mru2OXVWTjlLNHquOMlWfZU008qHsVMF72X0NmeyjTG3rmEeKpKKhlSGUw-kFtELRbOHarBHQtZfwa4ZR4yfSCiGTbvGUoTy8cQU~zojkqWpmw6w1g40cUmDtEt-cpghWnaICA-otkIJN3fBRhH5M6w4CejynufTq4wXEcDH9NEMIP4p9tyq2aEeGiQszlA67AbuIcHwp9P5t-9aP9ZmmQ8xgQ__",
+    image: "https://s3-alpha-sig.figma.com/img/4a4b/57d9/1dde88ae6788c27acd5fc55158eb2f11?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C~9UJi~VkQjTmzZSbNc~WwwkyaYrZ2Ph5TyS5fd0szHm6ZxIcGg1t2nH16NXVtNorFvqo-x7yj0EAIZd7RqtvnezWpb~iC7v3Qy4QMUCaHkaJAcBAgiHB9GK1tr8NbryqIi-nEjrKEmfOjgE9p2bIyLA~-tR0ipNugDC-KP0heM4UgI5rYpIP89plmSWNZsVtEJPtQvjrg~CAinVFMKjBWXPOByi4B3ZNm81Nt~yzcwBn5rzTszi4ZdxSJULDsPf1z30RJZCuwsrvpGrPDSWlHhbCiK5LepQ6adPBGLBdSQVdP~YNZCXTYKT5co8FFfbPPIRn2J2gDqzdGFZf1Ua-g__",
     icon: <HiArrowRight />
   };
 
@@ -141,9 +141,9 @@ function App() {
     title: "Materials",
     subtitle: "Very Serious Materials for Making Furniture",
     description: "Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price",
-    image1: "https://s3-alpha-sig.figma.com/img/3c8e/a705/dfc44b8035ebd10cd5adaafc9278179e?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LyGl4PA~BNrFiUY66IHqVXjX3AysRojVU5S0G7cKwtX8knrusiXL-rtVKHIXTfekLGF9SMc2cPrm6hV4k-fza9pHr5ag5bmqjkyp49K61n2iMp-K9WcF-0LTdnPP-F62Ns3QsNXk1p1VTmh0owHLMdUzJBef2UY20bvVWHE~OnlaBuToRurWHKSOzFHaiSeMMh-9jFYmmqwLU-wRomA6KuiSCsPy18kocXVMZlK-RT46L45NJ3-LmybvnM9YW5Bt38K4AbBRUh9w66oC~PtdKIgjSR4~c4hqE0yTyK-SNE2ehS3vpY0s3yGmAeJ7KalW0bUo-g8zpQHA1H7N1NQliA__",
-    image2: "https://s3-alpha-sig.figma.com/img/6155/4c82/d6a52e0a511f5d3e3a3ff6bbfcfafb76?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=IRe3LYRHTpMy1RaRoR6lBLub0p9zcEatxZDYN29nV2uVMa9eKeP0FGJ-uLGRg864B67NtcqGnyH2fKvTVNHFxXoVTEbsKJxaaui~z3mxsQl0Y2qh-R4OuBzm-~05ZWCX5LuWR0AHz67KqXbGNADlE1DKgUpQqbOz0~qQvjbTkPrPvxD4GiRx1H9Tv3Lc84I6wRTjp7FkAbLgo1Fpj14vTbDLUa-2J3LQEx6i-P-jSDa9XX01K9UO8HcaXYgSCE4bsKcdj8kLvleErVl1JxGxq1MNYwfZOf4yzvzX~n6wyCVEsh1etNmyrIxN8x7nvzUpEVwmJ2AqoVcQiuA7vLCihw__",
-    image3: "https://s3-alpha-sig.figma.com/img/443c/ef5f/2c32d6f28e6923d590e9c7a89b1297f7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jn0v5XnB3civ0gOOMynwIOEug6Vfccnb~8OTWCJe5-TixfS3N5nSeVpL-WGxrk-ZEVKl7RYtTWqHzqTj36fhD4-OgAeOfl2fE7NtNspSeYUZki94IvOEDKYvUSyKQeZDnA5l1G6XP9m60ymaLRPyG8GgUn~Wo4qTQ6ZTo8va-Wyv9a2ZCeteZsaUOHKRd7DyTpPWw4CG0mkdRi6YrVrEv2h3LxAccXe9XgbmbIXJNwg88fa4mr4cZYYyNNs39UINXck6oQ3gbbtbUmwALAlKJG0cJIaIxwWQCvLSjHtMHxNp4wfUANdKrVemAJQ8WSzhKbAvViGMH7EgWbGTmy0qWw__",
+    image1: "https://s3-alpha-sig.figma.com/img/443c/ef5f/2c32d6f28e6923d590e9c7a89b1297f7?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YRAPfGMAraFZ-OHjmGqoRq2VHob5-gVOc~5XqszGyD7ojvrCcd1rfEezOyJHF~zH31sIWLX8K2hl4vVX6v8790Njp8IzCFTFRuXBgk7D4JfMK7qmunIDtXbvCqDDI3fqJ9IKUJII7QhewYp0deHcVtA5ojpglkvtKrEJNxpBG7XS-yHDQnU4VwRsvlZ22ukEGnTIZQGQfW8EYeBt4pJ-ndoOE7SF1whowQ7puDNAoaR7juV5ieswu~VNPVy~2ENAUzS3~9Gb~wMrLOGHeOtSVKSCOaJ~McH-xPEQLZJeJmPU6LJDNz6SlkBFhWd-FePKlxQxbnYYsqul7aIcF-InFw__",
+    image2: "https://s3-alpha-sig.figma.com/img/3c8e/a705/dfc44b8035ebd10cd5adaafc9278179e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pyLebWXPZh-e0qL2d9NJQvoqoGd8OqN5mBbFdf8Q2ogjvoNWFSbBMdc-8yeYEUh42hWbTqbjtCPzbF-SxLEnn7zsuY699eaYoMDlbt2Q9RyxorR5B-8gSD4yapj6lMlMHntHmd~326d2ffF3a433N7gRljq~D5QjO~0ak9OcZ82rvZwG09EjlmUDBtxjhbRq5ISLauVccoP-5d8u3Y393FszsphpirCJ8tfjSUZj4o-MLH-pFHA-oPq~LAmj5HkE6TdP9RJ0DcPswvZcfPuwCy9KZTTFmpFGzMmBslCrwPBWGIOERx0MQ~rjOlrwyan7WX0VXZYjY2gOn1eWSip~vg__",
+    image3: "https://s3-alpha-sig.figma.com/img/6155/4c82/d6a52e0a511f5d3e3a3ff6bbfcfafb76?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JCwoHE631eJvc-LBvf55U6fAgsqvpzqmbkC9eNY2c7KxX6BQlrayNyVNLMQCQr03VvsVpMVRawMr8wI2BPxpIu6P~OmbYSR08BZ7OUEMQiyC7nl6v2kls~F~8wFeipNt-p9pMi0QDu5lt~t-ZfKum7nB6DKkUoXbJN8ff4yG5wjLp0jjoPM53b~LYZ4QALbiDVR1Sxj6Km~ez17kNKw1XFF1M74UinxEYiYNGhRJpN~oWpGOWO8OGapOPyizoSJ0CExtSR6M5IikA0DPsWgRvtUpv~XEqhBaCjOwy2BqELZpYyM5PiyIdgBACH2q4ugtVcAjb5DG-X8I3uPvOJKr-g__",
     icon: <HiArrowRight />
   };
 
