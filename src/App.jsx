@@ -117,7 +117,7 @@ function App() {
       id: 4,
       name: "Relax Chair ",
       type: "Sofa",
-      image: "/public/anjay-chair.png",
+      image: "/assets/anjay-chair.png",
       price: 921,
       icon: <HiStar />,
       rate: 4.8,
