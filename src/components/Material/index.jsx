@@ -26,19 +26,19 @@ const Material = props => {
                         <img
                             src={materials.image1}
                             alt={materials.title}
-                            className='w-[223px] h-[223px] rounded-md object-cover'
+                            className='w-[223px] h-[223px] rounded-md object-cover shadow-lg'
                         />
                         <img
                             src={materials.image2}
                             alt={materials.title}
-                            className='w-[223px] h-96 rounded-md object-cover object-left'
+                            className='w-[223px] h-80 rounded-md object-cover object-left shadow-lg'
                         />
                     </div>
                     <div className='flex justify-center items-center'>
                         <img
                             src={materials.image3}
                             alt={materials.title}
-                            className='w-[550px] h-96 rounded-xl object-cover'
+                            className='w-[550px] h-96 rounded-xl object-cover shadow-lg'
                         />
                     </div>
                 </div>
