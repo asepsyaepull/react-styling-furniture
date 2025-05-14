@@ -54,7 +54,7 @@ function App() {
     id: 1,
     title: "Make your interior more minimalistic & modern",
     subtitle: "Turn your room with furnime into a lot more minimalist and modern with ease and speed",
-    background: '/src/assets/Hero.jpg'
+    background: '/public/Hero.jpg'
   }
 
   const whyus = [
@@ -87,7 +87,7 @@ function App() {
       id: 1,
       name: "Sakarias Armchair",
       type: "Chair",
-      image: "/src/assets/sakarias-armchair.png",
+      image: "/public/sakarias-armchair.png",
       price: 389,
       icon: <HiStar />,
       rate: 4.8,
@@ -97,7 +97,7 @@ function App() {
       id: 2,
       name: "Baltsar Chair",
       type: "Chair",
-      image: "/src/assets/baltsar-chair.png",
+      image: "/public/baltsar-chair.png",
       price: 299,
       icon: <HiStar />,
       rate: 4.8,
@@ -107,7 +107,7 @@ function App() {
       id: 3,
       name: "Santuy Chair ",
       type: "Sofa",
-      image: "/src/assets/nyantuy-chair.png",
+      image: "/public/nyantuy-chair.png",
       price: 519,
       icon: <HiStar />,
       rate: 4.8,
@@ -117,7 +117,7 @@ function App() {
       id: 4,
       name: "Relax Chair ",
       type: "Sofa",
-      image: "/src/assets/anjay-chair.png",
+      image: "/public/anjay-chair.png",
       price: 921,
       icon: <HiStar />,
       rate: 4.8,
@@ -131,7 +131,7 @@ function App() {
     title: "experiences",
     subtitle: "We Provide You The Best Experience",
     description: "You don’t have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials",
-    image: "/src/assets/experience.png",
+    image: "/public/experience.png",
     icon: <HiArrowRight />
   };
 
@@ -141,9 +141,9 @@ function App() {
     title: "Materials",
     subtitle: "Very Serious Materials for Making Furniture",
     description: "Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price",
-    image1: "/src/assets/materials-1.png",
-    image2: "/src/assets/materials-2.png",
-    image3: "/src/assets/materials-3.png",
+    image1: "/public/materials-1.png",
+    image2: "/public/materials-2.png",
+    image3: "/public/materials-3.png",
     icon: <HiArrowRight />
   };
 
