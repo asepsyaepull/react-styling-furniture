@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = ({ logo, textLogo, footerDesc, footerService, footerList, footerSocial }) => {
     return (
         <footer className='flex flex-col w-full bg-stone-200 py-6'>
-            <div className='flex container mx-auto max-w-screen-xl items-center'>
+            <div className='flex flex-col md:flex-row container mx-auto max-w-screen-xl items-start md:items-center px-4 md:px-0'>
                 {/* Description */}
-                <div className='flex flex-col w-1/2 gap-4'>
+                <div className='flex flex-col w-full md:w-1/2 gap-4 mb-6 md:mb-0'>
                     <div className='flex gap-4'>
                         <img
                             src={logo}
@@ -21,7 +21,7 @@ const Footer = ({ logo, textLogo, footerDesc, footerService, footerList, footerS
                     </p>
                 </div>
                 {/* List Menu */}
-                <div className="flex w-full justify-end p-10 gap-24">
+                <div className="flex flex-col sm:flex-row w-full justify-start md:justify-end p-4 md:p-10 gap-8 md:gap-24">
                     <div className='flex flex-col gap-4'>
                         <h2 className='text-md text-orange-400 font-semibold'>
                             Services
@@ -62,7 +62,7 @@ const Footer = ({ logo, textLogo, footerDesc, footerService, footerList, footerS
             </div>
             <div className='flex items-center justify-center border-t border-gray-300'>
                 <div className='flex justify-center items-center gap-4 p-6'>
-                    <p className='text-sm text-gray-700'>
+                    <p className='text-sm text-gray-700 text-center'>
                         © 2024 {textLogo}. All rights reserved.
                     </p>
                 </div>

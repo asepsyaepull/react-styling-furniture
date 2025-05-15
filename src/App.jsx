@@ -215,11 +215,11 @@ function App() {
 
   const footerDesc = {
     id: 1,
-    title: "Furniro",
-    description: "Furniro is a company engaged in the field of furniture that has been established since 1990. We provide a variety of furniture products that are very luxurious and elegant.",
-    address: "Jl. Raya Jemursari No. 234, Surabaya, Indonesia",
+    title: "Furnime",
+    description: "Furnime is a company engaged in the field of furniture that has been established since 1990. We provide a variety of furniture products that are very luxurious and elegant.",
+    address: "Jl. Mashudi Cikampek Ceria, Blok.A3 No. 1, Karawang, Indonesia",
     phone: "+62 812 3456 7890",
-    email: "support@funiro.com",
+    email: "support@furnime.com",
   };
 
   const footerService = [
